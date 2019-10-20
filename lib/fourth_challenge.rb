@@ -6,12 +6,8 @@ def fourth_challenge
       :hero => {name: "Romeo", age: "15", status: "alive"},
       :hero_friends => [
         #your hashes here!
-        {
-          name: "Benvolio", age: "17", an_attitude_of: "worried"
-        },
-        {
-          name: "Mercutio", age: "18", an_attitude_of: "hot-headed"
-        }
+        { name: "Benvolio", age: "17", attitude: "worried"},
+        {name: "Mercutio", age: "18", attitude: "hot-headed"}
       ]
    }, 
    :capulet => {
@@ -21,10 +17,10 @@ def fourth_challenge
       :heroine_friends => [
         #your hashes here!
         {
-          name: "Steven", age: "30", an_attitude_of: "confused"
+          name: "Steven", age: "30", attitude: "confused"
         },
         {
-          name: "Nurse", age: "18", an_attitude_of: "worried"
+          name: "Nurse", age: "18", attitude: "worried"
         }
       ]
    }
